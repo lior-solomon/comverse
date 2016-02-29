@@ -1,0 +1,71 @@
+html {
+    font-family: sans-serif;
+}
+.one {
+    background: white;
+    width: 940px;
+    height:90px;
+    margin: 0 auto;
+    position:relative;
+}
+.one img {
+    position: absolute;
+    top: 30px;
+}
+.one ul {
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 140px;
+}
+.one li {
+    float: left;
+    display: inline-block;
+    padding-left: 14px;
+    font-size: 10px;
+}
+.one span {
+    position: absolute;
+    top: 40px;
+    right: 150px;
+}
+.one span input {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.one span img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.two {
+    height: 500px;
+    background-color: yellow;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.three {
+    background: darkgreen;
+    height: 400px;
+}
+
+.four {
+    background: orange;
+    height: 300px;
+}
+
+.container {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.2);
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 100%;
+    }
+}
