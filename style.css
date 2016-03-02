@@ -1,44 +1,56 @@
 html {
     font-family: sans-serif;
+    box-sizing: border-box;
 }
-.one {
+header {
     background: white;
     width: 940px;
     height:90px;
     margin: 0 auto;
     position:relative;
 }
-.one img {
+header img {
     position: absolute;
     top: 30px;
 }
-.one ul {
+header nav {
     list-style: none;
     position: absolute;
     top: 40px;
     left: 140px;
 }
-.one li {
+header nav li {
     float: left;
     display: inline-block;
-    padding-left: 14px;
+    padding-left: 7px;
+    padding-right: 7px;
     font-size: 10px;
 }
-.one span {
+
+.search {
     position: absolute;
     top: 40px;
     right: 150px;
 }
-.one span input {
+.search input {
+    border-radius: 5px;
     position: absolute;
     top: 0px;
     right: 0px;
 }
-.one span img {
+.search img {
     position: absolute;
     top: 0px;
     right: 0px;
 }
+.settings {
+    position: absolute;
+    top: 20px;
+    right: 163px;
+}
+
+
+
 
 .two {
     height: 500px;
