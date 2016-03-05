@@ -58,12 +58,69 @@ header nav ul li {
 
 
 
-.two {
+.main {
     height: 500px;
-    background-color: yellow;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
 }
+.box1 {
+    color: white;
+}
+.box1 h1 {
+    font-weight: normal;
+}
+.box1 em {
+    font-weight: bold;
+}
+.box1 button {
+    background-color: hsl(202, 72%, 45%);
+    color: white;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    margin-bottom: 80px;
+    text-align: left;
+}
+.box2 {
+    background-color: rgb(245, 58, 149);
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    width: 25%;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+.box3 {
+    background-color: rgb(106, 197, 60);
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    width: 25%;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+.box4 {
+    background-color: rgb(254, 116, 23);
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    width: 25%;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+.box2 a, .box3 a, .box4 a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px
+}
+.box2 a img, .box3 a img, .box4 a img {
+    float: left;
+    vertical-align: middle;
+}
+
+
 
 .three {
     background: darkgreen;
