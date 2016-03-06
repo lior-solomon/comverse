@@ -73,15 +73,20 @@ header nav ul li {
 .box1 em {
     font-weight: bold;
 }
-.box1 button {
+.box1 span button {
     background-color: hsl(202, 72%, 45%);
     color: white;
-    display: block;
     border-radius: 5px;
     border: none;
-    width: 100px;
+    width: 170px;
+    height: 35px;
     margin-bottom: 80px;
     text-align: left;
+    vertical-align: middle;
+}
+.box1 span button img {
+    float: right;
+    vertical-align: middle;
 }
 .box2 {
     background-color: rgb(245, 58, 149);
